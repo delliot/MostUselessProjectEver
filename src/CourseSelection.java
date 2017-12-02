@@ -9,7 +9,7 @@ public class CourseSelection {
         this.instructor = i;
     }
 
-    public void getSemester()
+    public void getSemester(String semester)
     {
         System.out.println("Message: ");
         System.out.println("className: CourseSelection");
@@ -17,27 +17,27 @@ public class CourseSelection {
         System.out.println("");
     }
 
-    public void selectCourses()
+    public void addCourseSelectionToSchedule(String course)
     {
         System.out.println("Message: ");
         System.out.println("className: CourseSelection");
-        System.out.println("MethodName: selectCourses()");
+        System.out.println("MethodName: addCourseSelectionToSchedule()");
         System.out.println("");
     }
 
-    public void confirmCourseToDelete()
+    public void getCourseSelections(String selections)
     {
         System.out.println("Message: ");
         System.out.println("className: CourseSelection");
-        System.out.println("MethodName: confirmCourseToDelete()");
+        System.out.println("MethodName: getCourseSelections()");
         System.out.println("");
     }
 
-    public void selectCourseToDelete()
+    public void deleteCourseSelectionFromSchedule(String delete)
     {
         System.out.println("Message: ");
         System.out.println("className: CourseSelection");
-        System.out.println("MethodName: selectCourseToDelete()");
+        System.out.println("MethodName: deleteCourseSelectionFromSchedule()");
         System.out.println("");
     }
 

@@ -27,11 +27,11 @@ public class Schedule {
         System.out.println("");
     }
 
-    public void printSchedule(String print)
+    public void selectPrintSchedule(String print)
     {
         System.out.println("Message: ");
         System.out.println("className: Schedule");
-        System.out.println("MethodName: printSchedule()");
+        System.out.println("MethodName: selectPrintSchedule()");
         System.out.println("");
     }
 

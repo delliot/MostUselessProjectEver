@@ -6,11 +6,11 @@ public class CourseCatalog {
         this.courseSections = courseSections;
     }
 
-    public void getCourseCatalog(String catalog)
+    public void getCourses(String catalog)
     {
         System.out.println("Message: ");
         System.out.println("className: CourseCatalog");
-        System.out.println("MethodName: getCourseCatalog()");
+        System.out.println("MethodName: getCourses()");
         System.out.println("");
     }
 

@@ -64,5 +64,7 @@ public class DBAccess {
         System.out.println("MethodName: deleteCourseSelectionFromSchedule()");
         System.out.println("");
     }
+
+
 }
 

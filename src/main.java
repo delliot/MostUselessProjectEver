@@ -34,7 +34,7 @@ public class main {
 
         controller.selectAdd("course");
         semester.getAllCourses("all");
-        courseCatalog.getCourseCatalog("winter2017");
+        courseCatalog.getCourses("winter2017");
         dbAccess.fetchCourses("courses");
         controller.displayCourseScreen("screen");
 
@@ -47,16 +47,19 @@ public class main {
 
         controller.confirmCourseSelection("confirm");
         schedule.addToSchedule(selection.toString());
+        selection.addCourseSelectionToSchedule("add");
         dbAccess.addCourseSelectionToSchedule("course");
 
         controller.selectCoursesToDelete("delete");
         schedule.getCourseSelectionsFromSchedule("schedule");
+        selection.getCourseSelections("selection");
         dbAccess.fetchCourseSelectionsPerInstructor("courses");
         controller.displayCourseScreen("screen");
 
 
         controller.confirmCourseToDelete("courses to delete");
         schedule.deleteFromSchedule("delete");
+        selection.deleteCourseSelectionFromSchedule("selection");
         dbAccess.deleteCourseSelectionFromSchedule("delete");
 
         controller.reviewCoursesToTeach("");
@@ -65,8 +68,8 @@ public class main {
         controller.displayReviewInto("review info");
 
         controller.selectPrintSchedule("print");
-        schedule.printSchedule("print");
-
+        schedule.selectPrintSchedule("print");
+        
 
 
     }
